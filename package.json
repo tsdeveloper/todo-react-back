@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon src/loader.js",
     "productions":  "pm2 start src/loader.js --name todo-app"
   },
   "devDependencies": {
